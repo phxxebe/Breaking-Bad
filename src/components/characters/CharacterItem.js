@@ -23,6 +23,12 @@ const CharacterItem = ({item}) => {
             <li>
               <strong>Status:</strong> {item.status}
             </li>
+            <li>
+              <strong>Appearance:</strong> {item.appearance}
+            </li>
+            <li>
+              <strong>Category:</strong> {item.category}
+            </li>
           </ul>
         </div>
       </div>
